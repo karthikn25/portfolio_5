@@ -4,7 +4,7 @@ import Base from "../Base/Base";
 function About() {
   return (
     <Base>
-      <div className="container">
+      <div className="">
         <div className="about-container">
           <div className="row">
             <div className="col">

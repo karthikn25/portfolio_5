@@ -10,7 +10,7 @@ import work7 from "../images/crud.png";
 export default function Project() {
   return (
     <Base>
-      <div className="container">
+      <div className="">
         <div className="row">
           <div className="col">
             <div

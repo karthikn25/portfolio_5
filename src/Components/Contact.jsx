@@ -4,7 +4,7 @@ import Base from "../Base/Base"
 export default function Contact() {
   return (
     <Base>
-      <div className="container">
+      <div className="">
         <div className="row">
           <div className="col">
             <h2><span className="color">C</span>ontact <span className="color">M</span>e</h2>

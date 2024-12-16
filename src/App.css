@@ -1,70 +1,264 @@
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
+
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and borders don't affect size */
 }
-.home-container{
-    font-family: Inika;
+
+/* Home container setup */
+.home-container {
+  font-family: 'Inika', serif; /* Apply the Inika font */
+  position: relative; /* Allow absolute positioning of background video */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  overflow: hidden;
+  padding-top: 200px;
+  
 }
-/* General container */
-.service-container {
-    padding: 20px;
-  }
+
+/* Full width, full height video setup */
+.home-container video {
+  position: absolute; /* Position it absolutely in the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make video full width */
+  height: 100%; /* Make video full height */
+  object-fit: cover; /* Ensure video covers the area without distortion */
+  z-index: -1; /* Place the video behind the content */
+}
+
+/* Centering content in the home-container */
+.home-content {
+  position: relative; /* Keeps content above video */
+  z-index: 1; /* Ensure content is above the background video */
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.home-head{
+  display: flex;
+  padding-left: 0px;
+  gap: 20px;
+}
+/* Styling for the home-head */
+.home-head h2 {
+  font-size: 2rem;
+  padding-top: 12px;
+  margin: 10px 0;
+}
+
+.name{
+  font-size: 3rem;
+  margin: 0;
+  color: #0BDA51;
   
-  /* Flex container that holds the boxes */
-  .service-row {
+}
+
+/* Styling for the home-position */
+.home-position h5 {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 0px;
+}
+
+/* Styling for the home-para */
+.home-para p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 20px 0;
+}
+
+/* Styling for the logo section */
+.home-logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.logo a i{
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #fff;
+  background: #00080D;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #0BDA51;
+  cursor: pointer;
+}
+.logo a i:hover{
+  color: #00080D;
+  background: #fff;
+}
+
+/* Styling for the home-btn */
+.home-btn button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #00080D;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #0BDA51;
+  transition: background-color 0.3s ease;
+}
+
+.home-btn button:hover {
+  background: #fff;
+  color: #00080D;
+}
+@media (max-width:600px) and (min-width:495px) {
+  .home-head{
     display: flex;
-    flex-wrap: wrap;  /* Enable wrapping of items */
-    gap: 20px;        /* Space between boxes */
-    justify-content: space-between; /* Distribute boxes evenly */
+    padding-left: 0px;
+    gap: 10px;
+  }
+  /* Styling for the home-head */
+  .home-head h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding-top: 8px;
+
   }
   
-  /* Each service box */
-  .service-content {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for style */
-    flex: 1 1 calc(30% - 20px); /* Default: 4 boxes per row (calc accounts for gap) */
-    box-sizing: border-box; /* Ensures padding and border are included in the width */
+  .name {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #0BDA51;
+    
   }
-  
-  /* Box content styling */
-  .service-detail {
+}
+@media (max-width:495px) and (min-width:450px) {
+  .home-head{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-left: 0px;
+    gap: 3px;
+  }
+  /* Styling for the home-head */
+  .home-head h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding-top: 6px;
+
   }
   
-  .service-detail i {
-    font-size: 40px;
-    color: #3498db;
-    margin-bottom: 10px;
+  .name {
+    font-size: 2.3rem;
+    margin: 0;
+    color: #0BDA51;
+    
+  }
+  .home-position h5 {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0px 2px;
+  }
+  .home-para p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 10px 0;
+  }
+}
+@media (max-width:450px) and (min-width:400px) {
+  .home-head{
+    display: flex;
+    padding-left: 0px;
+    gap: 3px;
+  }
+  /* Styling for the home-head */
+  .home-head h2 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding-top: 4px;
+
   }
   
-  .service-detail h6 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+  .name{
+    font-size: 2.1rem;
+    margin: 0;
+    color: #0BDA51;
+    
+  }
+  .home-position h5 {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0px 2px;
+  }
+  .home-para p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 10px 0;
+  }
+}
+@media (max-width:400px) and (min-width:340px) {
+  .home-head{
+    display: flex;
+    padding-left: 0px;
+    gap: 3px;
+  }
+  /* Styling for the home-head */
+  .home-head h2 {
+    font-size: 1rem;
+    margin: 10px 0;
+    padding-top: 2px;
+
   }
   
-  .service-detail p {
-    font-size: 14px;
-    text-align: center;
-    color: #555;
+  .name {
+    font-size: 1.7rem;
+    margin: 0;
+    color: #0BDA51;
+    
+  }
+  .home-position h5 {
+    font-size: 0.8rem;
+    color: #ccc;
+    margin: 0px 2px;
+  }
+  .home-para p {
+    font-size: 0.6rem;
+    color: #fff;
+    margin: 10px 0;
+  }
+}
+@media (max-width:340px) and (min-width:240px) {
+  .home-head{
+    display: flex;
+    padding-left: 0px;
+    gap: 1px;
+  }
+  /* Styling for the home-head */
+  .home-head h2 {
+    font-size: 0.8rem;
+    margin: 10px 0;
+    padding-top: 0px;
   }
   
-  /* Responsive Design for Tablets (2 boxes per row) */
-  @media (max-width: 1024px) {
-    .service-content {
-      flex: 1 1 calc(50% - 20px); /* 2 items per row */
-    }
+  .name {
+    font-size: 1.3rem;
+    margin: 0;
+    color: #0BDA51;
+    
   }
-  
-  /* Responsive Design for Mobile (1 box per row) */
-  @media (max-width: 480px) {
-    .service-content {
-      flex: 1 1 100%; /* 1 item per row */
-    }
+  .home-position h5 {
+    font-size: 0.6rem;
+    color: #ccc;
+    margin: 0px 2px;
   }
-  
+  .home-para p {
+    font-size: 0.4rem;
+    color: #fff;
+    margin: 10px 0;
+  }
+}
