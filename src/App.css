@@ -8,6 +8,10 @@
   box-sizing: border-box; /* Ensure padding and borders don't affect size */
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
 /* Home container setup */
 .home-container {
   font-family: 'Inika', serif; /* Apply the Inika font */
@@ -42,6 +46,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;  
+}
+.color{
+   color: #A9927D;
 }
 .home-head{
   display: flex;
@@ -113,7 +120,11 @@
   border: 2px solid #0BDA51;
   transition: background-color 0.3s ease;
 }
-
+.bio-data{
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
 .home-btn button:hover {
   background: #fff;
   color: #00080D;

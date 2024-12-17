@@ -1,0 +1,74 @@
+/* General styling for the topbar */
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Inika:wght@400;700&display=swap');
+.topbar {
+    position: sticky;
+    top: 0; /* This ensures the topbar stays at the top of the viewport */
+    z-index: 1000; /* Ensures the topbar is above other content */
+    background-color: #0A0908; /* Dark background for the topbar */
+    color: white;
+    padding: 7px 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow below the topbar */
+  }
+  .color{
+    color: #A9927D;
+ }
+  /* The content inside the topbar */
+  .topbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the logo */
+  .topbar-logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Charmonman", cursive;
+
+  }
+  
+  .topbar-logo {
+    margin: 0 5px; /* Adds space between each letter */
+    color: white;
+  }
+  
+  /* Navigation bar styling */
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navigation items styling */
+  .nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for navigation items */
+  .nav ul li:hover {
+    color: #ff6347; /* Tomato color for hover effect */
+    transform: scale(1.1); /* Slightly increases the size on hover */
+  }
+  
+  /* Mobile responsive adjustments */
+  @media (max-width: 768px) {
+    .topbar-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    .nav ul li {
+      margin: 5px 0; /* Reduces margin between items on small screens */
+    }
+  }
+  

@@ -1,5 +1,7 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Base from "../Base/Base";
+import { ReactTyped } from "react-typed";
+
 
 function About() {
   return (
@@ -8,15 +10,20 @@ function About() {
         <div className="about-container">
           <div className="row">
             <div className="col">
-              <h2 className="about-head">KARTHIKEYAN</h2>
+              <h2 className="about-head">
+              <ReactTyped className="color" strings={["KARTHIKEYAN M"]} typeSpeed={90} backSpeed={50}  
+                        backDelay={1000} 
+                        startDelay={500} 
+                        loop={true}    />
+                        </h2>
             </div>
           </div>
           <div className="row">
             <div className="col">
-              <h4 className="about-position">
+              <p className="about-position">
                 {" "}
                 | UI/UX DESIGNER | WEB DEVELOPER
-              </h4>
+              </p>
             </div>
           </div>
           <div className="row">
@@ -36,23 +43,24 @@ function About() {
                 <div className="col-12 col-sm-6">
                   <div className="bio-data">
                     <h5 className="bio-dataa-title">Birthday :</h5>
-                    <p className="bio-data-ans">25 Jan 2001</p>
+                    <h5 className="bio-data-ans">25 Jan 2001</h5>
                   </div>
                   <div className="bio-data">
                     <h5 className="bio-dataa-title">City :</h5>
-                    <p className="bio-data-ans">Bengaluru</p>
+                    <h5 className="bio-data-ans">Bengaluru</h5>
                   </div>
                   <div className="bio-data">
-                    <h5 className="bio-dataa-title">Website :</h5>
-                    <p className="bio-data-ans">
-                      <a
+                    <h5 className="bio-dataa-title">Website</h5>
+                    <h5 className="bio-data-ans">
+                      : <a
                         href="https://kknportfolio.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        style={{color:"#fff",fontSize:"14px"}}
                       >
                         https://kknportfolio.netlify.app/
                       </a>
-                    </p>
+                    </h5>
                   </div>
                   <div className="bio-data">
                     <h5 className="bio-dataa-title">Degree :</h5>

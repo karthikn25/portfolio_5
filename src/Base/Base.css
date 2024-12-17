@@ -1,7 +1,12 @@
 .base{
     background: black;
 }
-.container{
-    height: 100vh;
-    width: 100vw;
+.content
+{
+    padding: 50px;
+    background: #00080D;
+    color: #fff;
+}
+#topbar{
+    border-bottom: 1px solid #555454;
 }

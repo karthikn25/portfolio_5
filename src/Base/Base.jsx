@@ -3,8 +3,8 @@ import Topbar from './Topbar/Topbar'
 
 export default function Base({children}) {
   return (
-    <div className='container'>
-    <div className='topbar'>
+    <div className=''>
+    <div className='topbar' id='topbar'>
     <Topbar/>
     </div>
     <div className='content'>
