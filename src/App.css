@@ -129,6 +129,22 @@ body::-webkit-scrollbar {
   background: #fff;
   color: #00080D;
 }
+
+.style-border{
+  height: 100px;
+  width: 100px;
+  border: 3px solid #0BDA51;
+  animation: border-animation 3s infinite;
+  border-radius: 50%;
+}
+
+.timeline{
+  display: flex;
+  gap: 5px;
+}
+
+
+
 @media (max-width:600px) and (min-width:495px) {
   .home-head{
     display: flex;
