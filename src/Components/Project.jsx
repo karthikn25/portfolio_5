@@ -20,8 +20,9 @@ export default function Project() {
                     <img src={work1} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/kings_cafe_frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                    
+                    <a href="https://kingscaferestaurant.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a> 
                   </div>
                 </div>
               </div>
@@ -31,8 +32,7 @@ export default function Project() {
                     <img src={work2} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                    <a href="https://github.com/karthikn25/kings_cafe_client" target="_blank"><i className="bx bxl-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -42,8 +42,8 @@ export default function Project() {
                     <img src={work3} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/e-shippin-frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                  <a href="https://e-shipin.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
@@ -53,8 +53,8 @@ export default function Project() {
                     <img src={work4} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/jobportal_frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                     <a href="https://jobwaveapp.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
@@ -64,8 +64,8 @@ export default function Project() {
                     <img src={work5} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/privateChat_frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                   <a href="https://chatplayplan.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
@@ -75,8 +75,8 @@ export default function Project() {
                     <img src={work6} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/GoShop" target="_blank"><i className="bx bxl-github"></i></a>
+                  <a href="https://goshopapp.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
@@ -86,8 +86,8 @@ export default function Project() {
                     <img src={work7} alt="projects" />
                   </div>
                   <div className="project-btn">
-                    <i className="bx bxl-github"></i>
-                    <i className="bx bx-globe"></i>
+                  <a href="https://github.com/karthikn25/deploytask-frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                  <a href="https://crudappforworkers.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>

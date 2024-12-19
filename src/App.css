@@ -306,11 +306,14 @@ body::-webkit-scrollbar {
   justify-content: space-around;
 }
 
-.project-btn > i {
-  border: 2px solid #0BDA51;
-  border-radius: 50%;
-  font-size: 40px;
-  cursor: pointer;
+.project-btn >a {
+  color: white;
+  >i {
+    border: 2px solid #0BDA51;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+  }
 }
 
 /* Media Queries */
@@ -326,8 +329,10 @@ body::-webkit-scrollbar {
     width: 250px;
   }
 
-  .project-btn > i {
-    font-size: 30px; /* Adjust icon size for smaller screens */
+  .project-btn >a{
+    > i {
+      font-size: 30px; /* Adjust icon size for smaller screens */
+    }
   }
 
   .project-img > img {
@@ -341,8 +346,10 @@ body::-webkit-scrollbar {
     width: 100%; /* Ensure project boxes take full width on very small screens */
   }
 
-  .project-btn > i {
-    font-size: 25px; /* Further adjust icon size */
+  .project-btn >a{
+    > i {
+      font-size: 25px; /* Further adjust icon size */
+    }
   }
 }
 

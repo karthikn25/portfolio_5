@@ -1,6 +1,6 @@
 import Base from "../Base/Base"
 
-1
+
 export default function Contact() {
   return (
     <Base>
