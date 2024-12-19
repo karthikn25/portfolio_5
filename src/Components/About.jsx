@@ -54,15 +54,16 @@ function About() {
                     <h5 className="bio-data-ans">Bengaluru</h5>
                   </div>
                   <div className="bio-data">
-                    <h5 className="bio-dataa-title">Website</h5>
+                    <h5 className="bio-dataa-title">Website:</h5>
                     <h5 className="bio-data-ans">
-                      :{" "}
+                      
                       <a
                         href="https://kknportfolio.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: "#fff", fontSize: "14px" }}
-                      >
+                        style={{color:"#fff"}}
+                        className="about-portfolio"
+                        >
                         https://kknportfolio.netlify.app/
                       </a>
                     </h5>
@@ -90,189 +91,77 @@ function About() {
             </div>
             <div className="col-12 col-sm-6">
               <h4 className="about-position">SKILLS</h4>
-              <div style={{ display: "flex", flexWrap: "wrap",gap:"20px" }}>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+              <div className="skill-set">
+                <div className="icon-set">
                   <Icon icon="devicon:html5" className="style-border" />
                   <h6 className="skill-name">HTML</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="devicon:css3" className="style-border" />
                   <h6 className="skill-name">CSS</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon
                     icon="vscode-icons:file-type-js-official"
                     className="style-border"
                   />
                   <h6 className="skill-name">JAVASCRIPT</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="devicon:bootstrap" className="style-border" />
                   <h6 className="skill-name">BOOTSTRAP</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon
                     icon="logos:tailwindcss-icon"
-                  className="style-border"
+                    className="style-border"
                   />
                   <h6 className="skill-name">TAILWIND</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="devicon:react" className="style-border" />
                   <h6 className="skill-name">REACT</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="devicon:vitejs" className="style-border" />
                   <h6 className="skill-name">VITE REACT</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="devicon:mongodb" className="style-border" />
                   <h6 className="skill-name">MONGODB</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:nodejs-icon" className="style-border" />
                   <h6 className="skill-name">NODEJS</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="ri:github-line" className="style-border" />
                   <h6 className="skill-name">GITHUB</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon
                     icon="skill-icons:netlify-light"
                     className="style-border"
                   />
                   <h6 className="skill-name">NETLIFY</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:aws" className="style-border" />
                   <h6 className="skill-name">AWS</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:redux" className="style-border" />
                   <h6 className="skill-name">REDUX</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:postman-icon" className="style-border" />
                   <h6 className="skill-name">POSTMAN</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:material-ui" className="style-border" />
                   <h6 className="skill-name">MATERIAL UI</h6>
                 </div>
-                <div
-                  className="icon-set"
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                  }}
-                >
+                <div className="icon-set">
                   <Icon icon="logos:figma" className="style-border" />
                   <h6 className="skill-name">FIGMA</h6>
                 </div>

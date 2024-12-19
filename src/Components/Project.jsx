@@ -13,23 +13,11 @@ export default function Project() {
       <div className="">
         <div className="row">
           <div className="col">
-            <div
-              className="project-box-container"
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "20px",
-                textAlign: "center",
-              }}
-            >
+            <div className="project-box-container">
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work1}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work1} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -40,11 +28,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work2}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work2} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -55,11 +39,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work3}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work3} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -70,11 +50,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work4}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work4} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -85,11 +61,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work5}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work5} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -100,11 +72,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work6}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work6} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
@@ -115,11 +83,7 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
-                    <img
-                      src={work7}
-                      alt="projects"
-                      style={{ height: "200px", width: "200px" }}
-                    />
+                    <img src={work7} alt="projects" />
                   </div>
                   <div className="project-btn">
                     <i className="bx bxl-github"></i>
