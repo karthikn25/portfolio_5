@@ -10,3 +10,27 @@
 #topbar{
     border-bottom: 1px solid #555454;
 }
+@media (max-width:768px) and (min-width:600px) {
+.content
+{
+    padding: 30px;
+    background: #00080D;
+    color: #fff;
+}
+}
+@media (max-width:600px) and (min-width:300px) {
+.content
+{
+    padding: 20px;
+    background: #00080D;
+    color: #fff;
+}
+}
+@media (max-width:300px) and (min-width:200px) {
+.content
+{
+    padding: 10px;
+    background: #00080D;
+    color: #fff;
+}
+}
