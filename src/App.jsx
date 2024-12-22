@@ -9,7 +9,7 @@ import Contact from "./Components/Contact.jsx";
 function App() {
   return (
     <Router>
-      <div>
+   
         <Routes>
           <Route exact path="/" element={<Home />} />
 
@@ -21,7 +21,7 @@ function App() {
 
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      </div>
+      
     </Router>
   );
 }
