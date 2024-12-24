@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home-container">
       {/* Background Video */}
-      <video autoPlay loop muted>
+      <video autoPlay loop muted preload="auto">
         <source src={videoSource} type="video/mp4" />
       </video>
 
