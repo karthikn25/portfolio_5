@@ -6,6 +6,7 @@ import work4 from "../images/JobPortal.png";
 import work5 from "../images/Private_chat_app.png";
 import work6 from "../images/instamart.png";
 import work7 from "../images/crud.png";
+import work8 from "../images/weather_station.png";
 
 export default function Project() {
   return (
@@ -88,6 +89,17 @@ export default function Project() {
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/deploytask-frontend" target="_blank"><i className="bx bxl-github"></i></a>
                   <a href="https://crudappforworkers.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-box">
+                <div className="project-box-content">
+                  <div className="project-img">
+                    <img src={work8} alt="projects" />
+                  </div>
+                  <div className="project-btn">
+                  <a href="https://github.com/karthikn25/weather_App" target="_blank"><i className="bx bxl-github"></i></a>
+                  <a href="https://weatherdetailsdashboard.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
