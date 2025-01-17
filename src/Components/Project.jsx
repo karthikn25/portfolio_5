@@ -51,6 +51,17 @@ export default function Project() {
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
+                    <img src={work8} alt="projects" />
+                  </div>
+                  <div className="project-btn">
+                  <a href="https://github.com/karthikn25/weather_App" target="_blank"><i className="bx bxl-github"></i></a>
+                  <a href="https://weatherdetailsdashboard.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-box">
+                <div className="project-box-content">
+                  <div className="project-img">
                     <img src={work4} alt="projects" />
                   </div>
                   <div className="project-btn">
@@ -92,17 +103,7 @@ export default function Project() {
                   </div>
                 </div>
               </div>
-              <div className="project-box">
-                <div className="project-box-content">
-                  <div className="project-img">
-                    <img src={work8} alt="projects" />
-                  </div>
-                  <div className="project-btn">
-                  <a href="https://github.com/karthikn25/weather_App" target="_blank"><i className="bx bxl-github"></i></a>
-                  <a href="https://weatherdetailsdashboard.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
