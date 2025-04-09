@@ -22,7 +22,7 @@ function Home() {
           loop={true}    />
         </div>
         <div className="home-position">
-          <h5>| ENGINEER | UI/UX DEVELOPER | MERN STACK DEVELOPER</h5>
+          <h5>| ENGINEER | UI/UX DEVELOPER | MERN STACK DEVELOPER | REACT NATIVE DEVELOPER</h5>
         </div>
         <div className="home-para">
           <p>
@@ -40,6 +40,10 @@ function Home() {
           </div>
           <div className="logo">
           <a href="https://www.figma.com/files/team/1289837835149916615/recents-and-sharing?fuid=1289837833600236842" target="_blank"><i className="bx bxl-figma"></i></a>
+            
+          </div>
+          <div className="logo">
+          <a href="https://drive.google.com/file/d/1YGWYISpqblY8dtL8n68jDc7eDDDrkiib/view?usp=drive_link" target="_blank"><i class='bx bx-link'></i></a>
             
           </div>
         </div>
