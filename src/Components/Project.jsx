@@ -73,7 +73,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,WeatherApi</p>
+                    <p>Figma,ReactJs,WeatherApi</p>
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs</p>
+                    <p>ReactJs</p>
                   </div>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
+                    <p>ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
                   </div>
                 </div>
               </div>
