@@ -22,7 +22,7 @@ function Home() {
           loop={true}    />
         </div>
         <div className="home-position">
-          <h5>| ENGINEER | UI/UX DEVELOPER | MERN STACK DEVELOPER | REACT NATIVE DEVELOPER</h5>
+          <h5>| ENGINEER | UI/UX DESIGNER | MERN STACK DEVELOPER | REACT NATIVE DEVELOPER</h5>
         </div>
         <div className="home-para">
           <p>
