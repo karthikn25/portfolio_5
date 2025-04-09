@@ -52,7 +52,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,RazorPay</p>
                   </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/e-shippin-frontend" target="_blank"><i className="bx bxl-github"></i></a>
@@ -67,7 +67,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,WeatherApi</p>
                   </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/weather_App" target="_blank"><i className="bx bxl-github"></i></a>
@@ -97,7 +97,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,Socket.IO</p>
                   </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/privateChat_frontend" target="_blank"><i className="bx bxl-github"></i></a>
@@ -112,7 +112,7 @@ export default function Project() {
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
+                    <p>Figma,ReactJs</p>
                   </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/GoShop" target="_blank"><i className="bx bxl-github"></i></a>
