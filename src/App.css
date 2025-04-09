@@ -156,6 +156,18 @@ body::-webkit-scrollbar {
     text-align: center;
    
 }
+.tech-stack{
+  display: flex;
+  flex-direction: column;
+  >h4{
+    font-size: 16px;
+  }
+  >p{
+    font-size: 10px;
+    word-wrap: break-word; /* Ensures long words break to next line */
+    word-break: break-word;
+  }
+}
 .service-container {
   padding: 50px 20px;
   display: flex;
