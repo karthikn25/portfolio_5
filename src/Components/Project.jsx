@@ -20,14 +20,14 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work1} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
-                  </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/kings_cafe_frontend" target="_blank"><i className="bx bxl-github"></i></a>
                     
                     <a href="https://kingscaferestaurant.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a> 
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
                   </div>
                 </div>
               </div>
@@ -36,12 +36,12 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work2} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h6>Tech Stack</h6>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
-                  </div>
-                  <div className="project-btn">
+                 <div className="project-btn">
                     <a href="https://github.com/karthikn25/kings_cafe_client" target="_blank"><i className="bx bxl-github"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h6 style={{paddingTop:"10px"}}>Tech Stack:</h6>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
                   </div>
                 </div>
               </div>
@@ -50,13 +50,14 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work3} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,RazorPay</p>
-                  </div>
+                 
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/e-shippin-frontend" target="_blank"><i className="bx bxl-github"></i></a>
                   <a href="https://e-shipin.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,RazorPay</p>
                   </div>
                 </div>
               </div>
@@ -65,13 +66,14 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work8} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,WeatherApi</p>
-                  </div>
+                
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/weather_App" target="_blank"><i className="bx bxl-github"></i></a>
                   <a href="https://weatherdetailsdashboard.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,WeatherApi</p>
                   </div>
                 </div>
               </div>
@@ -80,13 +82,13 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work4} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
-                  </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/jobportal_frontend" target="_blank"><i className="bx bxl-github"></i></a>
                      <a href="https://jobwaveapp.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
                   </div>
                 </div>
               </div>
@@ -95,13 +97,13 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work5} alt="projects" />
                   </div>
+                 <div className="project-btn">
+                  <a href="https://github.com/karthikn25/privateChat_frontend" target="_blank"><i className="bx bxl-github"></i></a>
+                   <a href="https://chatplayplan.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
                     <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication,Socket.IO</p>
-                  </div>
-                  <div className="project-btn">
-                  <a href="https://github.com/karthikn25/privateChat_frontend" target="_blank"><i className="bx bxl-github"></i></a>
-                   <a href="https://chatplayplan.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
                   </div>
                 </div>
               </div>
@@ -110,13 +112,13 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work6} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs</p>
-                  </div>
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/GoShop" target="_blank"><i className="bx bxl-github"></i></a>
                   <a href="https://goshopapp.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs</p>
                   </div>
                 </div>
               </div>
@@ -125,13 +127,14 @@ export default function Project() {
                   <div className="project-img">
                     <img src={work7} alt="projects" />
                   </div>
-                  <div className="tech-stack">
-                    <h4>Tech Stack</h4>
-                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
-                  </div>
+                
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/deploytask-frontend" target="_blank"><i className="bx bxl-github"></i></a>
                   <a href="https://crudappforworkers.netlify.app" target="_blank"><i className="bx bx-globe"></i></a>
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,ReactJs,NodeJs,MongoDB,Cloudinary,Authentication</p>
                   </div>
                 </div>
               </div>
