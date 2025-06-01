@@ -26,14 +26,14 @@ function About() {
             <div className="col">
               <p className="about-position">
                 {" "}
-                | UI/UX DESIGNER | WEB DEVELOPER
+                | UI/UX DESIGNER | WEB DEVELOPER | MOBILE APP DEVELOPER 
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col">
               <p className="about-description">
-                I am a passionate web developer and UI/UX designer with a focus
+                I am a passionate web developer,mobile app developer and UI/UX designer with a focus
                 on creating user-friendly, responsive websites. I am dedicated
                 to continuous learning and enhancing my skills to stay on top of
                 industry trends. Currently, I am seeking new opportunities to
@@ -80,7 +80,7 @@ function About() {
                   </div>
                   <div className="bio-data">
                     <h5 className="bio-dataa-title">Age :</h5>
-                    <h5 className="bio-data-ans">23</h5>
+                    <h5 className="bio-data-ans">24</h5>
                   </div>
                   <div className="bio-data">
                     <h5 className="bio-dataa-title">Email :</h5>

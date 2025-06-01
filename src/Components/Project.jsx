@@ -7,6 +7,8 @@ import work5 from "../images/Private_chat_app.png";
 import work6 from "../images/instamart.png";
 import work7 from "../images/crud.png";
 import work8 from "../images/weather_station.png";
+import work9 from "../images/e-shippin-mobile.png";
+
 
 export default function Project() {
   return (
@@ -15,6 +17,22 @@ export default function Project() {
         <div className="row">
           <div className="col">
             <div className="project-box-container">
+            <div className="project-box">
+                <div className="project-box-content">
+                  <div className="project-img">
+                    <img src={work9} alt="projects" />
+                  </div>
+                  <div className="project-btn">
+                  <a href="https://github.com/karthikn25/e-shippin-mobile" target="_blank"><i className="bx bxl-github"></i></a>
+                    
+                    <a href="https://kingscaferestaurant.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a> 
+                  </div>
+                  <div className="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <p>Figma,React Native Expo,NodeJs,MongoDB,Cloudinary,Authentication,RazorPay</p>
+                  </div>
+                </div>
+              </div>
               <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">

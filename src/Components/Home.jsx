@@ -26,7 +26,7 @@ function Home() {
         </div>
         <div className="home-para">
           <p>
-            with knowledge in web development and design, I offer the best
+            with knowledge in web development and Mobile App development and design, I offer the best
             projects resulting in quality work.
           </p>
         </div>

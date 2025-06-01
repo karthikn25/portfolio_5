@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
 
 /* Styling for the home-para */
 .home-para p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #fff;
   margin: 20px 0;
 }
@@ -275,15 +275,15 @@ body::-webkit-scrollbar {
 .project-box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   justify-content: center; /* Centering the items */
 }
 
 .project-box {
   border: 2px solid #fff;
-  height: 400px;
+  height: 370px;
   width: 300px;
-  padding: 20px;
+  padding: 10px 10px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   flex: 1 1 300px; 
@@ -297,8 +297,8 @@ body::-webkit-scrollbar {
 
 .project-img > img {
   height: 230px;
-  width: 250px;
-  object-fit: cover; /* Ensures images fit properly */
+  width: 270px;
+  object-fit: contain; /* Ensures images fit properly */
 }
 .tech-stack{
   display: flex;
@@ -313,7 +313,7 @@ body::-webkit-scrollbar {
     content: " :";
   }
   >p{
-    font-size: 10px;
+    font-size: 11px;
     word-wrap: break-word; 
     word-break: break-word;
     width: 65%;
@@ -324,7 +324,7 @@ body::-webkit-scrollbar {
 .project-btn {
   display: flex;
   justify-content: space-around;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .project-btn >a {
@@ -597,7 +597,7 @@ body::-webkit-scrollbar {
 
   .project-img > img {
     height: 180px; /* Resize image for small screens */
-    width: 240px;
+    width: 255px;
   }
 
 }
@@ -629,7 +629,10 @@ body::-webkit-scrollbar {
   
     }
   }
-  
+   .project-img > img {
+    height: 180px; /* Resize image for small screens */
+    width: 255px;
+  }
   .project-btn >a{
     > i {
       font-size: 25px; /* Further adjust icon size */
@@ -742,6 +745,10 @@ body::-webkit-scrollbar {
   .about-portfolio{
     font-size: 10px;
   }
+   .project-img > img {
+    height: 180px; /* Resize image for small screens */
+    width: 280px;
+  }
 }
 @media (max-width:1358px) and (min-width:768px) {
   .bio-data{
@@ -817,7 +824,7 @@ body::-webkit-scrollbar {
     margin: 0px 2px;
   }
   .home-para p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
     margin: 10px 0;
   }
@@ -875,9 +882,13 @@ body::-webkit-scrollbar {
     margin: 0px 2px;
   }
   .home-para p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
     margin: 10px 0;
+  }
+   .project-img > img {
+    height: 180px; /* Resize image for small screens */
+    width: 280px;
   }
 }
 @media (max-width:400px) and (min-width:340px) {
@@ -937,12 +948,20 @@ body::-webkit-scrollbar {
     color: #fff;
     margin: 10px 0;
   }
+   .project-img > img {
+    height: 180px; /* Resize image for small screens */
+    width: 285px;
+  }
 }
 @media (max-width:340px) and (min-width:240px) {
   .home-head{
     display: flex;
     padding-left: 0px;
     gap: 1px;
+  }
+   .project-img > img {
+    height: 180px; /* Resize image for small screens */
+    width: 255px;
   }
   /* Styling for the home-head */
   .home-head h2 {
@@ -996,7 +1015,7 @@ body::-webkit-scrollbar {
     margin: 0px 2px;
   }
   .home-para p {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     color: #fff;
     margin: 10px 0;
   }
