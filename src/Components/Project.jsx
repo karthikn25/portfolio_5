@@ -25,7 +25,7 @@ export default function Project() {
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/e-shippin-mobile" target="_blank"><i className="bx bxl-github"></i></a>
                     
-                    <a href="https://kingscaferestaurant.netlify.app/" target="_blank"><i className="bx bx-globe"></i></a> 
+                    <a href="http://kknportfolio24.netlify.app/my-app.apk" target="_blank"><i className="bx bx-globe"></i></a> 
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
