@@ -25,7 +25,7 @@ export default function Project() {
                   <div className="project-btn">
                   <a href="https://github.com/karthikn25/e-shippin-mobile" target="_blank"><i className="bx bxl-github"></i></a>
                     
-                    <a href="https://drive.google.com/uc?export=download&id=1NzXMHnu0PyDfdtqoxHL6AjkQvWP2Mc0o" target="_blank"><i className="bx bx-globe"></i></a> 
+                    <a href="https://github.com/karthikn25/e-shippin-mobile/releases/download/v1.0.0/my-app.apk" target="_blank"><i className="bx bx-globe"></i></a> 
                   </div>
                   <div className="tech-stack">
                     <h4>Tech Stack</h4>
