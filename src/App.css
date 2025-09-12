@@ -129,27 +129,6 @@ body::-webkit-scrollbar {
   background: #fff;
   color: #00080D;
 }
-.notification-banner {
-    background-color: #fffae6;
-    color: #333;
-    padding: 10px 20px;
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 14px;
-    border-bottom: 1px solid #ffe58f;
-    animation: slideIn 1s ease-out;
-  }
-
-  .notification-banner .message {
-    margin-bottom: 5px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  @keyframes slideIn {
-    from { transform: translateY(-100%); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-  }
 
 .style-border{
   height: 100px;
