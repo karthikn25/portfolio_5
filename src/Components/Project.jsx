@@ -17,8 +17,8 @@ export default function Project() {
         <div className="row">
           <div className="col">
             <div className="project-box-container">
-              <marquee>Warning : I'm using free Render service for Backend so for wake up it take 5 to 10min</marquee>
-              <marquee>{`      For login use Email: testemailtodevelop@gmail.com & Password:12345678`}</marquee>
+              <marquee direction="right">Warning : I'm using free Render service for Backend so for wake up it take 5 to 10min</marquee>
+              <marquee>For login use Email: testemailtodevelop@gmail.com & Password:12345678</marquee>
             <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
