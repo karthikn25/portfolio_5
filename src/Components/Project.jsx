@@ -17,14 +17,9 @@ export default function Project() {
         <div className="row">
           <div className="col">
             <div className="project-box-container">
-     <div class="notification-banner">
-  <div class="message">
-    ⚠️ The backend is hosted on a free Render service. Initial load may take 5–10 minutes.
-  </div>
-  <div class="message">
-    🔑 Test Login: <strong>Email</strong>: testemailtodevelop@gmail.com | <strong>Password</strong>: 12345678
-  </div>
-</div>
+              <marquee direction="right">⚠️ The backend is hosted on a free Render service. Initial load may take 5–10 minutes</marquee>
+              <marquee>🔑 Test Login: <strong>Email</strong>: testemailtodevelop@gmail.com | <strong>Password</strong>: 12345678</marquee>
+  
             <div className="project-box">
                 <div className="project-box-content">
                   <div className="project-img">
