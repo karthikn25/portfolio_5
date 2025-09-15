@@ -43,7 +43,7 @@ function Home() {
             
           </div>
           <div className="logo">
-          <a href="https://drive.google.com/file/d/1YGWYISpqblY8dtL8n68jDc7eDDDrkiib/view?usp=drive_link" target="_blank"><i class='bx bx-link'></i></a>
+          <a href="https://drive.google.com/file/d/1XcwZR_Bx_NBCOWeJ4RaJVkYsfLBotdou/view?usp=drive_link" target="_blank"><i class='bx bx-link'></i></a>
             
           </div>
         </div>
