@@ -165,6 +165,18 @@ function About() {
                   <Icon icon="logos:figma" className="style-border" />
                   <h6 className="skill-name">FIGMA</h6>
                 </div>
+                 <div className="icon-set">
+                  <Icon icon="logos:docker" className="style-border" />
+                  <h6 className="skill-name">DOCKER</h6>
+                </div>
+                 <div className="icon-set">
+                  <Icon icon="skill-icons:gcp-light" className="style-border" />
+                  <h6 className="skill-name">GOOGLE CLOUD</h6>
+                </div>
+                 <div className="icon-set">
+                  <Icon icon="devicon:reactnative-wordmark" className="style-border" />
+                  <h6 className="skill-name">REACT NATIVE</h6>
+                </div>
               </div>
             </div>
           </div>
